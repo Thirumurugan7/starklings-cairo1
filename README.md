@@ -128,7 +128,7 @@ Thanks for your interest in the project. You can fork the repo, create a branch 
 ```
 cargo run -r --bin starklings run new_exercise
 ```
-4. Check that the [tests](#testing) pass.
+4. Check that the [tests](#testing) pass
 5. Send your PR!
 
 ### Updating Rust logic/Cairo version
