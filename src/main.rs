@@ -98,6 +98,11 @@ struct HintArgs {
     /// the name of the exercise
     name: String,
 }
+struct HintArgss {
+    #[argh(positional)]
+    /// the name of the exercise
+    name: String,
+}
 
 #[derive(FromArgs, PartialEq, Debug)]
 #[argh(subcommand, name = "lsp")]
